@@ -17,8 +17,11 @@
 		335868511E4970EB0017E067 /* exampleForAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 335868501E4970EB0017E067 /* exampleForAnimationTests.m */; };
 		3358685C1E4970EC0017E067 /* exampleForAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3358685B1E4970EC0017E067 /* exampleForAnimationUITests.m */; };
 		3358686B1E49712A0017E067 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3358686A1E49712A0017E067 /* ViewController.m */; };
-		3358686E1E4973B30017E067 /* PPBasicAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3358686D1E4973B30017E067 /* PPBasicAnimationController.m */; };
 		335868711E49A87F0017E067 /* PPKeyframeAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 335868701E49A87F0017E067 /* PPKeyframeAnimationController.m */; };
+		8E2C17BA213FA69500DF4C10 /* JXBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C17B8213FA69500DF4C10 /* JXBasicViewController.m */; };
+		8E2C17BB213FA69500DF4C10 /* JXBasicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E2C17B9213FA69500DF4C10 /* JXBasicViewController.xib */; };
+		8E2C17C4213FCBB700DF4C10 /* JXJingDongCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C17C2213FCBB700DF4C10 /* JXJingDongCarViewController.m */; };
+		8E2C17C5213FCBB700DF4C10 /* JXJingDongCarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E2C17C3213FCBB700DF4C10 /* JXJingDongCarViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,10 +62,14 @@
 		3358685D1E4970EC0017E067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		335868691E49712A0017E067 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3358686A1E49712A0017E067 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3358686C1E4973B30017E067 /* PPBasicAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPBasicAnimationController.h; sourceTree = "<group>"; };
-		3358686D1E4973B30017E067 /* PPBasicAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPBasicAnimationController.m; sourceTree = "<group>"; };
 		3358686F1E49A87F0017E067 /* PPKeyframeAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPKeyframeAnimationController.h; sourceTree = "<group>"; };
 		335868701E49A87F0017E067 /* PPKeyframeAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPKeyframeAnimationController.m; sourceTree = "<group>"; };
+		8E2C17B7213FA69500DF4C10 /* JXBasicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXBasicViewController.h; sourceTree = "<group>"; };
+		8E2C17B8213FA69500DF4C10 /* JXBasicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXBasicViewController.m; sourceTree = "<group>"; };
+		8E2C17B9213FA69500DF4C10 /* JXBasicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JXBasicViewController.xib; sourceTree = "<group>"; };
+		8E2C17C1213FCBB700DF4C10 /* JXJingDongCarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXJingDongCarViewController.h; sourceTree = "<group>"; };
+		8E2C17C2213FCBB700DF4C10 /* JXJingDongCarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXJingDongCarViewController.m; sourceTree = "<group>"; };
+		8E2C17C3213FCBB700DF4C10 /* JXJingDongCarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JXJingDongCarViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,14 +124,18 @@
 				3358683A1E4970EB0017E067 /* AppDelegate.m */,
 				335868691E49712A0017E067 /* ViewController.h */,
 				3358686A1E49712A0017E067 /* ViewController.m */,
-				3358686C1E4973B30017E067 /* PPBasicAnimationController.h */,
-				3358686D1E4973B30017E067 /* PPBasicAnimationController.m */,
+				8E2C17B7213FA69500DF4C10 /* JXBasicViewController.h */,
+				8E2C17B8213FA69500DF4C10 /* JXBasicViewController.m */,
+				8E2C17B9213FA69500DF4C10 /* JXBasicViewController.xib */,
 				3358686F1E49A87F0017E067 /* PPKeyframeAnimationController.h */,
 				335868701E49A87F0017E067 /* PPKeyframeAnimationController.m */,
 				3319FF1E1E4D8D84000A3995 /* PPSpringAnimController.h */,
 				3319FF1F1E4D8D84000A3995 /* PPSpringAnimController.m */,
 				3319FF211E4D96E6000A3995 /* PPFireAnimController.h */,
 				3319FF221E4D96E6000A3995 /* PPFireAnimController.m */,
+				8E2C17C1213FCBB700DF4C10 /* JXJingDongCarViewController.h */,
+				8E2C17C2213FCBB700DF4C10 /* JXJingDongCarViewController.m */,
+				8E2C17C3213FCBB700DF4C10 /* JXJingDongCarViewController.xib */,
 				3358683F1E4970EB0017E067 /* Main.storyboard */,
 				335868421E4970EB0017E067 /* Assets.xcassets */,
 				335868441E4970EB0017E067 /* LaunchScreen.storyboard */,
@@ -267,7 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				335868461E4970EB0017E067 /* LaunchScreen.storyboard in Resources */,
+				8E2C17BB213FA69500DF4C10 /* JXBasicViewController.xib in Resources */,
 				335868431E4970EB0017E067 /* Assets.xcassets in Resources */,
+				8E2C17C5213FCBB700DF4C10 /* JXJingDongCarViewController.xib in Resources */,
 				335868411E4970EB0017E067 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,11 +308,12 @@
 			files = (
 				3358686B1E49712A0017E067 /* ViewController.m in Sources */,
 				335868711E49A87F0017E067 /* PPKeyframeAnimationController.m in Sources */,
-				3358686E1E4973B30017E067 /* PPBasicAnimationController.m in Sources */,
 				3319FF201E4D8D84000A3995 /* PPSpringAnimController.m in Sources */,
 				3319FF231E4D96E6000A3995 /* PPFireAnimController.m in Sources */,
+				8E2C17BA213FA69500DF4C10 /* JXBasicViewController.m in Sources */,
 				3358683B1E4970EB0017E067 /* AppDelegate.m in Sources */,
 				335868381E4970EB0017E067 /* main.m in Sources */,
+				8E2C17C4213FCBB700DF4C10 /* JXJingDongCarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

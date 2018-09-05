@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JXJingDongCarViewController">
+            <connections>
+                <outlet property="imageV" destination="Jw2-dk-D3v" id="OCT-GH-QqL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xiezi" translatesAutoresizingMaskIntoConstraints="NO" id="Jw2-dk-D3v">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="400"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="400" id="MPB-cB-HTM"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aP9-y5-Sdw">
+                    <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                    <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="9Uc-QT-mRh"/>
+                    </constraints>
+                    <state key="normal" title="加入购物车">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="shoppingCartAction:" destination="-1" eventType="touchUpInside" id="xh2-9G-CfI"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Jw2-dk-D3v" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="54W-AE-bRF"/>
+                <constraint firstAttribute="trailing" secondItem="aP9-y5-Sdw" secondAttribute="trailing" id="SoO-YO-Iyi"/>
+                <constraint firstItem="aP9-y5-Sdw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jH8-IB-Y85"/>
+                <constraint firstAttribute="trailing" secondItem="Jw2-dk-D3v" secondAttribute="trailing" id="noL-W0-FDw"/>
+                <constraint firstAttribute="bottom" secondItem="aP9-y5-Sdw" secondAttribute="bottom" id="tE5-an-BW2"/>
+                <constraint firstItem="Jw2-dk-D3v" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="wqV-T4-QGf"/>
+            </constraints>
+            <point key="canvasLocation" x="-198.5" y="-37.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="xiezi" width="1081" height="1079"/>
+    </resources>
+</document>

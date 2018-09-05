@@ -24,7 +24,7 @@
     
     titleArr = @[
                  @[
-                     @{@"claName":@"PPBasicAnimationController",@"title":@"CABaseAnimation动画"},
+                     @{@"claName":@"JXBasicViewController",@"title":@"CABaseAnimation动画"},
                      @{@"claName":@"PPKeyframeAnimationController",@"title":@"CAKeyframeAnimation动画"},
                      @{@"claName":@"PPTransitionViewController",@"title":@"CATransitionAnimation动画"},
                      @{@"claName":@"PPSpringAnimController",@"title":@"CATransitionAnimation动画"},
@@ -42,6 +42,10 @@
                      @{
                          @"claName":@"PPFireAnimController",
                          @"title":@"粒子动画-火苗效果"
+                         },
+                     @{
+                         @"claName":@"JXJingDongCarViewController",
+                         @"title":@"京东-加入购物车"
                          },
                      ]
                  ];
